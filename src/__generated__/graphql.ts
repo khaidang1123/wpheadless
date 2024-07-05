@@ -11249,7 +11249,75 @@ export type PageCategory = AcfFieldGroup & AcfFieldGroupFields & PageCategory_Fi
    */
   fieldGroupName?: Maybe<Scalars['String']['output']>;
   /** Field of the &quot;taxonomy&quot; Field Type added to the schema as part of the &quot;PageCategory&quot; Field Group */
+  homeCategory1?: Maybe<AcfTermNodeConnection>;
+  /** Field of the &quot;taxonomy&quot; Field Type added to the schema as part of the &quot;PageCategory&quot; Field Group */
+  homeCategory2?: Maybe<AcfTermNodeConnection>;
+  /** Field of the &quot;taxonomy&quot; Field Type added to the schema as part of the &quot;PageCategory&quot; Field Group */
+  homeCategory3?: Maybe<AcfTermNodeConnection>;
+  /** Field of the &quot;taxonomy&quot; Field Type added to the schema as part of the &quot;PageCategory&quot; Field Group */
+  homeCategory4?: Maybe<AcfTermNodeConnection>;
+  /** Field of the &quot;taxonomy&quot; Field Type added to the schema as part of the &quot;PageCategory&quot; Field Group */
+  homeCategory5?: Maybe<AcfTermNodeConnection>;
+  /** Field of the &quot;post_object&quot; Field Type added to the schema as part of the &quot;PageCategory&quot; Field Group */
+  homePost1?: Maybe<AcfContentNodeConnection>;
+  /** Field of the &quot;true_false&quot; Field Type added to the schema as part of the &quot;PageCategory&quot; Field Group */
+  isHomepage?: Maybe<Scalars['Boolean']['output']>;
+  /** Field of the &quot;taxonomy&quot; Field Type added to the schema as part of the &quot;PageCategory&quot; Field Group */
   pageCategory?: Maybe<AcfTermNodeConnection>;
+};
+
+
+/** The &quot;PageCategory&quot; Field Group. Added to the Schema by &quot;WPGraphQL for ACF&quot;. */
+export type PageCategoryHomeCategory1Args = {
+  after?: InputMaybe<Scalars['String']['input']>;
+  before?: InputMaybe<Scalars['String']['input']>;
+  first?: InputMaybe<Scalars['Int']['input']>;
+  last?: InputMaybe<Scalars['Int']['input']>;
+};
+
+
+/** The &quot;PageCategory&quot; Field Group. Added to the Schema by &quot;WPGraphQL for ACF&quot;. */
+export type PageCategoryHomeCategory2Args = {
+  after?: InputMaybe<Scalars['String']['input']>;
+  before?: InputMaybe<Scalars['String']['input']>;
+  first?: InputMaybe<Scalars['Int']['input']>;
+  last?: InputMaybe<Scalars['Int']['input']>;
+};
+
+
+/** The &quot;PageCategory&quot; Field Group. Added to the Schema by &quot;WPGraphQL for ACF&quot;. */
+export type PageCategoryHomeCategory3Args = {
+  after?: InputMaybe<Scalars['String']['input']>;
+  before?: InputMaybe<Scalars['String']['input']>;
+  first?: InputMaybe<Scalars['Int']['input']>;
+  last?: InputMaybe<Scalars['Int']['input']>;
+};
+
+
+/** The &quot;PageCategory&quot; Field Group. Added to the Schema by &quot;WPGraphQL for ACF&quot;. */
+export type PageCategoryHomeCategory4Args = {
+  after?: InputMaybe<Scalars['String']['input']>;
+  before?: InputMaybe<Scalars['String']['input']>;
+  first?: InputMaybe<Scalars['Int']['input']>;
+  last?: InputMaybe<Scalars['Int']['input']>;
+};
+
+
+/** The &quot;PageCategory&quot; Field Group. Added to the Schema by &quot;WPGraphQL for ACF&quot;. */
+export type PageCategoryHomeCategory5Args = {
+  after?: InputMaybe<Scalars['String']['input']>;
+  before?: InputMaybe<Scalars['String']['input']>;
+  first?: InputMaybe<Scalars['Int']['input']>;
+  last?: InputMaybe<Scalars['Int']['input']>;
+};
+
+
+/** The &quot;PageCategory&quot; Field Group. Added to the Schema by &quot;WPGraphQL for ACF&quot;. */
+export type PageCategoryHomePost1Args = {
+  after?: InputMaybe<Scalars['String']['input']>;
+  before?: InputMaybe<Scalars['String']['input']>;
+  first?: InputMaybe<Scalars['Int']['input']>;
+  last?: InputMaybe<Scalars['Int']['input']>;
 };
 
 
@@ -11269,7 +11337,75 @@ export type PageCategory_Fields = {
    */
   fieldGroupName?: Maybe<Scalars['String']['output']>;
   /** Field of the &quot;taxonomy&quot; Field Type added to the schema as part of the &quot;PageCategory&quot; Field Group */
+  homeCategory1?: Maybe<AcfTermNodeConnection>;
+  /** Field of the &quot;taxonomy&quot; Field Type added to the schema as part of the &quot;PageCategory&quot; Field Group */
+  homeCategory2?: Maybe<AcfTermNodeConnection>;
+  /** Field of the &quot;taxonomy&quot; Field Type added to the schema as part of the &quot;PageCategory&quot; Field Group */
+  homeCategory3?: Maybe<AcfTermNodeConnection>;
+  /** Field of the &quot;taxonomy&quot; Field Type added to the schema as part of the &quot;PageCategory&quot; Field Group */
+  homeCategory4?: Maybe<AcfTermNodeConnection>;
+  /** Field of the &quot;taxonomy&quot; Field Type added to the schema as part of the &quot;PageCategory&quot; Field Group */
+  homeCategory5?: Maybe<AcfTermNodeConnection>;
+  /** Field of the &quot;post_object&quot; Field Type added to the schema as part of the &quot;PageCategory&quot; Field Group */
+  homePost1?: Maybe<AcfContentNodeConnection>;
+  /** Field of the &quot;true_false&quot; Field Type added to the schema as part of the &quot;PageCategory&quot; Field Group */
+  isHomepage?: Maybe<Scalars['Boolean']['output']>;
+  /** Field of the &quot;taxonomy&quot; Field Type added to the schema as part of the &quot;PageCategory&quot; Field Group */
   pageCategory?: Maybe<AcfTermNodeConnection>;
+};
+
+
+/** Interface representing fields of the ACF &quot;PageCategory&quot; Field Group */
+export type PageCategory_FieldsHomeCategory1Args = {
+  after?: InputMaybe<Scalars['String']['input']>;
+  before?: InputMaybe<Scalars['String']['input']>;
+  first?: InputMaybe<Scalars['Int']['input']>;
+  last?: InputMaybe<Scalars['Int']['input']>;
+};
+
+
+/** Interface representing fields of the ACF &quot;PageCategory&quot; Field Group */
+export type PageCategory_FieldsHomeCategory2Args = {
+  after?: InputMaybe<Scalars['String']['input']>;
+  before?: InputMaybe<Scalars['String']['input']>;
+  first?: InputMaybe<Scalars['Int']['input']>;
+  last?: InputMaybe<Scalars['Int']['input']>;
+};
+
+
+/** Interface representing fields of the ACF &quot;PageCategory&quot; Field Group */
+export type PageCategory_FieldsHomeCategory3Args = {
+  after?: InputMaybe<Scalars['String']['input']>;
+  before?: InputMaybe<Scalars['String']['input']>;
+  first?: InputMaybe<Scalars['Int']['input']>;
+  last?: InputMaybe<Scalars['Int']['input']>;
+};
+
+
+/** Interface representing fields of the ACF &quot;PageCategory&quot; Field Group */
+export type PageCategory_FieldsHomeCategory4Args = {
+  after?: InputMaybe<Scalars['String']['input']>;
+  before?: InputMaybe<Scalars['String']['input']>;
+  first?: InputMaybe<Scalars['Int']['input']>;
+  last?: InputMaybe<Scalars['Int']['input']>;
+};
+
+
+/** Interface representing fields of the ACF &quot;PageCategory&quot; Field Group */
+export type PageCategory_FieldsHomeCategory5Args = {
+  after?: InputMaybe<Scalars['String']['input']>;
+  before?: InputMaybe<Scalars['String']['input']>;
+  first?: InputMaybe<Scalars['Int']['input']>;
+  last?: InputMaybe<Scalars['Int']['input']>;
+};
+
+
+/** Interface representing fields of the ACF &quot;PageCategory&quot; Field Group */
+export type PageCategory_FieldsHomePost1Args = {
+  after?: InputMaybe<Scalars['String']['input']>;
+  before?: InputMaybe<Scalars['String']['input']>;
+  first?: InputMaybe<Scalars['Int']['input']>;
+  last?: InputMaybe<Scalars['Int']['input']>;
 };
 
 
